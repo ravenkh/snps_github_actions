@@ -23,7 +23,8 @@ jobs:
           ### SCANNING: Required fields
           #blackduck_url: ${{ vars.BLACKDUCK_URL }}
           blackduck_url: https://us03-sup-stg-kbhub.nprd.sig.synopsys.com/
-          blackduck_token: ${{ secrets.BLACKDUCK_TOKEN }}
+          #blackduck_token: ${{ secrets.BLACKDUCK_TOKEN }}
+          blackduck_token: NjM5YzdiMzktODJlMy00MmZlLTlmNDEtMzZmODRjZDBhZjU3OjhmOTRiMmQ0LTRkZjYtNDMxOC1iMmQ1LTYwMjJmOWUwMjQwZA==
           blackduck_scan_full: true
          
           ### SCANNING: Optional fields
