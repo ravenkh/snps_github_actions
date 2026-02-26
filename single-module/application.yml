@@ -1,0 +1,2 @@
+detect.excluded.directories: test
+detect.project.version.name: 2.0
