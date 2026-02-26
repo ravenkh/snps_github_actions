@@ -25,10 +25,10 @@ jobs:
         
       with:
         ### SCANNING: Required fields
-        #blackducksca_url: ${{ secrets.BLACKDUCK_URL }}
-        blackducksca_url: https://sig-bd-hub.app.blackduck.com/
-        #blackducksca_token: ${{ secrets.BLACKDUCK_TOKEN }}
-        blackducksca_token: NjY4NGJhNGUtYWU4ZS00M2ZjLWE0OTQtOWEwY2RlOTEwNmNlOjQ2ZmI2NTMxLWIwMmQtNGRmZC1hZmE2LTNjOTI0ZmVkOWZiMQ==
+        blackducksca_url: ${{ secrets.BLACKDUCK_URL }}
+        #blackducksca_url: https://sig-bd-hub.app.blackduck.com/
+        blackducksca_token: ${{ secrets.BLACKDUCK_TOKEN }}
+        #blackducksca_token: 
         blackduck_scan_full: true
         include_diagnostics: true
         
