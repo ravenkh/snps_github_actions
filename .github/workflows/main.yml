@@ -23,7 +23,7 @@ jobs:
         DETECT_PROJECT_VERSION_NAME: 1.0
         BLACKDUCK_TRUST_CERT: true
         DETECT_SOURCE_PATH: /home/runner/work/snps_github_actions/snps_github_actions/single-module
-        DETECT_EXCLUDED_DIRECTORIES: 03685868
+        DETECT_EXCLUDED_DIRECTORIES: 3685868
         
         
       with:
